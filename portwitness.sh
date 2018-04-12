@@ -11,14 +11,14 @@ else
         echo -e  "\033[34m ###                OSINT @tikoo_sahil ###\n"
 	echo "[*] Want to check for the sub-domain enum(Y,N)?"
         read enum
-        if [ "$enum" == "Y" ] || [ "$enum" == "y"]; then
+        if [ "$enum" == "Y" ]; then
 	       cd Sublist3r
                echo "Searching For Sub-Domains ........"
                `./sublist3r.py -d $1 -o output.txt`
                echo output.txt > x
                while read -r line; do
                         `nslookup "$line" | awk '/ Address: / { print $2 }'` > ip.txt
-               done << "$x"
+               done < "$x"
                echo "[*] IP's for all sub-domains generated in ./ip.txt"
                nmap -p 80,443 -iL ip.txt -oG port_status.txt
                cat port_status.txt | grep Up | cut -d ":" -f 2| cut -d " " -f 2 > Working_ips.txt
@@ -27,7 +27,7 @@ else
                while read -r line;do 
                		`host "$line" | cut -d " " -f 5` > b
                         echo "[~] $b is active"
-               done << "$a"
+               done < "$a"
         else
                echo "[*] Checking Whether Domain working or not !!"
                `nslookup "$1" | awk '/ Address: / { print $2 }'` > y
