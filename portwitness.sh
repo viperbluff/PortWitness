@@ -21,9 +21,9 @@ else
                done < "$x"
                echo "[*] IP's for all sub-domains generated in ./ip.txt"
                echo ` nmap -p 80,443 -iL -Pn  ip.txt` >  port_status.txt
-               cat port_status.txt | grep Up | cut -d ":" -f 2| cut -d " " -f 2 > Working_ips.txt
+               Working_ips= `cat port_status.txt | grep Up | cut -d ":" -f 2| cut -d " " -f 2` 
                echo "[*] All the Working IP's stored in ./Working_ips.txt"
-               echo Working_ips.txt > a
+               a=`cat Working_ips.txt`
                while read -r line;do 
                		`host $line | cut -d " " -f 5` > b
                         echo "[~] $b is active"
@@ -32,7 +32,7 @@ else
                echo "[*] Checking Whether Domain working or not !!"
                echo `nslookup $1 | awk '/^Address: / { print $2 }'` > y.txt 
                echo `nmap -p 80,443 -sX -Pn -iL y.txt` > domain_status.txt
-               cat domain_status.txt | grep Up | cut -d ":" -f 2| cut -d " " -f 2 > Working_domain.txt
+               echo `cat domain_status.txt | grep Up | cut -d ":" -f 2| cut -d " " -f 2` > Working_domain.txt
                z=`cat Working_domain.txt` 
                if [ "$z" != "" ];then
               		 echo "[!] $1 is active "
