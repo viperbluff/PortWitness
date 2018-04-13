@@ -20,7 +20,7 @@ else
                         echo `nslookup $line | awk '/ Address: / { print $2 }'` > ip.txt
                done < "$x"
                echo "[*] IP's for all sub-domains generated in ./ip.txt"
-               nmap -p 80,443 -iL -Pn  ip.txt -oG port_status.txt
+               echo ` nmap -p 80,443 -iL -Pn  ip.txt` >  port_status.txt
                cat port_status.txt | grep Up | cut -d ":" -f 2| cut -d " " -f 2 > Working_ips.txt
                echo "[*] All the Working IP's stored in ./Working_ips.txt"
                echo Working_ips.txt > a
@@ -31,7 +31,7 @@ else
         else
                echo "[*] Checking Whether Domain working or not !!"
                echo `nslookup $1 | awk '/^Address: / { print $2 }'` > y.txt 
-               nmap -p 80,443 -sX -Pn -iL y.txt -oG domain_status.txt
+               echo `nmap -p 80,443 -sX -Pn -iL y.txt` > domain_status.txt
                cat domain_status.txt | grep Up | cut -d ":" -f 2| cut -d " " -f 2 > Working_domain.txt
                z=`cat Working_domain.txt` 
                if [ "$z" != "" ];then
