@@ -20,5 +20,5 @@ This tool has been created using bash scripting so all you require is a linux ma
 
 ## Usage 
 
-> **bash PortWitness.sh url**
+> **bash portwitness.sh url**
 
