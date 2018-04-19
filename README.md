@@ -12,7 +12,7 @@ This tool also helps a user in getting the ip addresses of all sub-domains and s
 
 # Installation 
 
-git clone https://github.com/viperbluff/PortWitness.git
+> git clone https://github.com/viperbluff/PortWitness.git
 
 # BASH
 
@@ -20,5 +20,5 @@ This tool has been created using bash scripting so all you require is a linux ma
 
 # Usage 
 
-bash PortWitness.sh url
+> bash PortWitness.sh url
 
