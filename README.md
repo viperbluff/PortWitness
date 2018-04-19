@@ -6,19 +6,19 @@ Sublist3r has also been integrated with this module.It's very effective and accu
 
 This tool also helps a user in getting the ip addresses of all sub-domains and stores then in a text file , these ip's can be used for further scanning of the target. 
 
-# Screenshots 
+## Screenshots 
 
 ![PortWitness](https://raw.github.com/viperbluff/PortWitness/master/screenshots/PortWitness.png)
 
-# Installation 
+## Installation 
 
-> git clone https://github.com/viperbluff/PortWitness.git
+> **git clone https://github.com/viperbluff/PortWitness.git**
 
-# BASH
+## BASH
 
 This tool has been created using bash scripting so all you require is a linux machine. 
 
-# Usage 
+## Usage 
 
-> bash PortWitness.sh url
+> **bash PortWitness.sh url**
 
