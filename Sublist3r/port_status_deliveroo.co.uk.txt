@@ -1,0 +1,100 @@
+# Nmap 6.49BETA4 scan initiated Thu Apr 19 03:24:00 2018 as: nmap -p 80,443 -Pn -iL ip_deliveroo.co.uk.txt -oG port_status_deliveroo.co.uk.txt
+Host: 104.16.98.113 ()	Status: Up
+Host: 104.16.98.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.95.113 ()	Status: Up
+Host: 104.16.95.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.97.113 ()	Status: Up
+Host: 104.16.97.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.96.113 ()	Status: Up
+Host: 104.16.96.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.94.113 ()	Status: Up
+Host: 104.16.94.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 151.101.9.115 ()	Status: Up
+Host: 151.101.9.115 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 52.222.176.24 (server-52-222-176-24.bom52.r.cloudfront.net)	Status: Up
+Host: 52.222.176.24 (server-52-222-176-24.bom52.r.cloudfront.net)	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 52.222.176.138 (server-52-222-176-138.bom52.r.cloudfront.net)	Status: Up
+Host: 52.222.176.138 (server-52-222-176-138.bom52.r.cloudfront.net)	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 52.222.176.34 (server-52-222-176-34.bom52.r.cloudfront.net)	Status: Up
+Host: 52.222.176.34 (server-52-222-176-34.bom52.r.cloudfront.net)	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 52.222.176.61 (server-52-222-176-61.bom52.r.cloudfront.net)	Status: Up
+Host: 52.222.176.61 (server-52-222-176-61.bom52.r.cloudfront.net)	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 52.222.176.225 (server-52-222-176-225.bom52.r.cloudfront.net)	Status: Up
+Host: 52.222.176.225 (server-52-222-176-225.bom52.r.cloudfront.net)	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 52.222.176.76 (server-52-222-176-76.bom52.r.cloudfront.net)	Status: Up
+Host: 52.222.176.76 (server-52-222-176-76.bom52.r.cloudfront.net)	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 52.222.176.92 (server-52-222-176-92.bom52.r.cloudfront.net)	Status: Up
+Host: 52.222.176.92 (server-52-222-176-92.bom52.r.cloudfront.net)	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 52.222.176.137 (server-52-222-176-137.bom52.r.cloudfront.net)	Status: Up
+Host: 52.222.176.137 (server-52-222-176-137.bom52.r.cloudfront.net)	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.95.113 ()	Status: Up
+Host: 104.16.95.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.98.113 ()	Status: Up
+Host: 104.16.98.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.94.113 ()	Status: Up
+Host: 104.16.94.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.97.113 ()	Status: Up
+Host: 104.16.97.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.96.113 ()	Status: Up
+Host: 104.16.96.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.96.113 ()	Status: Up
+Host: 104.16.96.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.95.113 ()	Status: Up
+Host: 104.16.95.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.94.113 ()	Status: Up
+Host: 104.16.94.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.98.113 ()	Status: Up
+Host: 104.16.98.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.97.113 ()	Status: Up
+Host: 104.16.97.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.96.113 ()	Status: Up
+Host: 104.16.96.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.94.113 ()	Status: Up
+Host: 104.16.94.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.98.113 ()	Status: Up
+Host: 104.16.98.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.97.113 ()	Status: Up
+Host: 104.16.97.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.95.113 ()	Status: Up
+Host: 104.16.95.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.98.113 ()	Status: Up
+Host: 104.16.98.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.97.113 ()	Status: Up
+Host: 104.16.97.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.96.113 ()	Status: Up
+Host: 104.16.96.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.94.113 ()	Status: Up
+Host: 104.16.94.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.95.113 ()	Status: Up
+Host: 104.16.95.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.96.113 ()	Status: Up
+Host: 104.16.96.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.97.113 ()	Status: Up
+Host: 104.16.97.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.94.113 ()	Status: Up
+Host: 104.16.94.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.98.113 ()	Status: Up
+Host: 104.16.98.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.95.113 ()	Status: Up
+Host: 104.16.95.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.98.113 ()	Status: Up
+Host: 104.16.98.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.97.113 ()	Status: Up
+Host: 104.16.97.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.95.113 ()	Status: Up
+Host: 104.16.95.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.94.113 ()	Status: Up
+Host: 104.16.94.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.96.113 ()	Status: Up
+Host: 104.16.96.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.95.113 ()	Status: Up
+Host: 104.16.95.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.97.113 ()	Status: Up
+Host: 104.16.97.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.94.113 ()	Status: Up
+Host: 104.16.94.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.96.113 ()	Status: Up
+Host: 104.16.96.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 104.16.98.113 ()	Status: Up
+Host: 104.16.98.113 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+# Nmap done at Thu Apr 19 03:24:32 2018 -- 49 IP addresses (49 hosts up) scanned in 32.06 seconds
