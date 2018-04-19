@@ -5,6 +5,7 @@ if [ "$1" == "" ]; then
 	echo -e  "\033[32m ###                PortWitness               ###"
 	echo -e  "\033[32m ###              OSINT @tikoo_sahil          ###\n"
 	echo -e  "\033[34m [!]Usage: ./portwitness.sh url\e[0m"
+	echo -e  "\033[34m [!]Enter Domain name without www prefix[0m"
 else 
         tput bold
         echo -e  "\033[32m ###                PortWitness               ###"
@@ -29,9 +30,9 @@ else
 	       echo -e "\e[1m\e[34m[!]\e[0m IP's for all sub-domains generated in ./Sublist3r/ip_$1.txt\e[0m"
                if [ -f port_status_$1.txt ]; then
                         rm port_status_$1.txt
-               		l=`nmap -p 80,443 -Pn -iL ip_$1.txt -oG port_status_$1.txt`
+               		l=`nmap -p 80,443 -Pn -A -iL ip_$1.txt -oG port_status_$1.txt`
                else
-                        l=`nmap -p 80,443 -Pn  -iL ip_$1.txt -oG port_status_$1.txt`
+                        l=`nmap -p 80,443 -Pn  -A -iL ip_$1.txt -oG port_status_$1.txt`
                fi 
                if [ -f active_ip_$1.txt ]; then
                		rm active_ip_$1.txt
