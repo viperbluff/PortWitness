@@ -5,7 +5,7 @@ if [ "$1" == "" ]; then
 	echo -e  "\033[32m ###                PortWitness               ###"
 	echo -e  "\033[32m ###              OSINT @tikoo_sahil          ###\n"
 	echo -e  "\033[34m [!]Usage: ./portwitness.sh url\e[0m"
-	echo -e  "\033[34m [!]Enter Domain name without www prefix[0m"
+	echo -e  "\033[34m\e[1m [!]Enter Domain name without www prefix\e[0m\e[0m"
 else 
         tput bold
         echo -e  "\033[32m ###                PortWitness               ###"
