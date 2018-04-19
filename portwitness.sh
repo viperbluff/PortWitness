@@ -82,14 +82,14 @@ else
                 fi
                echo -e "\e[1m\e[35m[!]\e[0mList of all the active sub-domains is stored under ./Sublist3r/active_domain.txt\e[0m" 
         else
-               echo -e "\e[1m\e[32m[*]\e[0m Checking Whether Domain working or not !!"
+               echo -e "\n\e[1m\e[32m[*]\e[0m Checking Whether Domain working or not......."
                echo `nslookup $1 | awk '/^Address: / { print $2 }'` > y.txt
                o=`nmap -p 80,443 -A -sX -Pn -iL y.txt -oG domain_status.txt`
                z=`cat domain_status.txt | grep Up | cut -d ":" -f 2 | cut -d " " -f 2` 
                if [ "$z" != "" ];then
-              		 echo "\e[34m[!]\e[0m $1 is active "
+              		 echo -e  "\e[1m\e[34m[!]\e[0m $1 is active\e[0m "
                else
-               		echo "\e[31m[!]\e[0m $1  is down"
+               		echo  -e "\e[1m\e[31m[!]\e[0m $1  is down\e[0m"
                fi
    	 fi
 fi
