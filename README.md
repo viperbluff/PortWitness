@@ -27,6 +27,8 @@ This tool has been created using bash scripting so all you require is a linux ma
 ## Credits
 
 Sahil Tikoo
+
 Cyber Security Analyst(NII)
+
 sahil.tikoo@niiconsulting.com
 
