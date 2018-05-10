@@ -20,5 +20,6 @@ This tool has been created using bash scripting so all you require is a linux ma
 
 ## Usage 
 
+> **Provide execute rights to the file by chmod +x portwitness.sh**
 > **bash portwitness.sh url**
 
