@@ -41,7 +41,7 @@ This tool has been created using bash scripting so all you require is a linux ma
 
 Sahil Tikoo
 
-Cyber Security Analyst(NII)
+Associate Security Researcher 
 
-sahil.tikoo@niiconsulting.com
+sahil@payatu.com
 
